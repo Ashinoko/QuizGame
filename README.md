@@ -19,7 +19,7 @@ sampleTest: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_sh
 
 
 # Future features
-- [ ] More quiz sources
+- [ ] More question sources
 - [ ] cooler UI
 - [ ] Timed mode
 - [ ] Choose by Category
