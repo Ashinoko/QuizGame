@@ -12,8 +12,10 @@ vite 3.2.3
 
 ## Screenshots
 
-Sentiment: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_shots/start.png "startPage")
-Mentions: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_shots/quiz4.png "SampleTest")
+Startpage: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_shots/start.png "startPage")
+
+
+sampleTest: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_shots/quiz4.png "SampleTest")
 
 
 
