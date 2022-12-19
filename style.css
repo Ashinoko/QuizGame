@@ -105,7 +105,9 @@ body{
 
 .answers{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .possible-answer{
@@ -120,6 +122,8 @@ body{
     padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+    max-width: 200px;
+    word-wrap:break-word;
 }
 .wrong-answer{
     /* margin-right: 5px; */
@@ -132,6 +136,8 @@ body{
     padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+    max-width: 200px;
+    word-wrap:break-word;
 }
 .correct-answer{
     /* margin-right: 5px; */
@@ -144,6 +150,8 @@ body{
     padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+    max-width: 200px;
+    word-wrap:break-word;
 }
 .not-clicked-answer{
     text-align: center;
@@ -154,7 +162,7 @@ body{
     padding-right: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
-    max-width: 80px;
+    max-width: 200px;
     word-wrap:break-word;
     cursor: pointer;
 
@@ -180,6 +188,6 @@ body{
     border: none;
     
     
-    margin-left: 30%;
+    
     margin-bottom: 15px;
 }
