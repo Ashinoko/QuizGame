@@ -18,6 +18,14 @@ Startpage: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_sho
 sampleTest: ![alt text](https://github.com/Ashinoko/QuizGame/blob/main/screen_shots/quiz4.png "SampleTest")
 
 
+# Future features
+- [ ] More quiz sources
+- [ ] cooler UI
+- [ ] Timed mode
+- [ ] Choose by Category
+- [ ] Deploying as a separate website
+
+
 
 
 
