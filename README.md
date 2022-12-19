@@ -1,5 +1,5 @@
 # QuizGame
-A QuizGame about general knowledge Made with ReactJS
+A QuizGame about general knowledge Made with ReactJS(Compatible with PC,phone and tablet)
 
  by pressing the Play button each time,It generates 5 random trivia questions each with 4 possible answers, and it checks your answers after submitting
 
