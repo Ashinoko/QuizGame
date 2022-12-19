@@ -4,11 +4,11 @@ A QuizGame about general knowledge Made with ReactJS
  by pressing the Play button each time,It generates 5 random trivia questions each with 4 possible answers, and it checks your answers after submitting
 
 ## Requierments
-npm 6.14.17
+npm 6.14.17 , 
 vite 3.2.3
 
 ### Running
-"npm run dev" to run on localhost
+"npm run dev" on CLI to run on localhost
 
 ## Screenshots
 
