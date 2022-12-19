@@ -5,14 +5,15 @@ export default function Question(props){
 
     function getAnswerClass(answer){
 
-        if(props.submitted)
-        {
-         if(answer.isCorrect){
-            return("correct-answer")
-        }else if(answer.isClicked){
-            return("wrong-answer")
+        if(props.submitted){
+
+            if(answer.isCorrect){
+                return("correct-answer")
+            }else if(answer.isClicked){
+                return("wrong-answer")
+            }
         }
-        }
+
         if(answer.isClicked){
             return("possible-answer")
         }else{
@@ -20,15 +21,20 @@ export default function Question(props){
         }
 
     }
+
+    const myStyle={
+        cursor: props.submitted && 'not-allowed'
+    }
+
     
 
     const processedAnswers = props.answers.map((el)=>{
         return (<p className={getAnswerClass(el)} key={el.index}
+        style={myStyle}
          onClick={()=> props.clickFun(el.value,props.row)}> {el.value}</p>)
     })
 
 
-    console.log(props.answers)
     
 
     return(
